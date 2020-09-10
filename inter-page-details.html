@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rental Details</title>
+
+    <!-- Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- OwlCarousel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- font-awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="thumb_slider.css">
+
+</head>
+<body>
+
+    <!--start header section  -->
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">	
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link font-weight-bold " href="#"><i class="fas fa-user-plus"></i>&nbsp; Sign up </a></li>
+                <li class="nav-item"><a class="nav-link font-weight-bold " href="#"><i class="fas fa-user-circle"></i>&nbsp; Sign in </a></li>
+                </ul>
+            </div> 
+            </div> 
+        </nav>
+    </header>
+    <!--End header section  -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col  position-relative slide-view">
+                <section id="carousel">
+                    <div class="owl-carousel owl-theme ">
+                        <div class="item py-2">
+                            <div class="product font-rale px-1">
+                                <a href="#"><img src="./img/bg3.jpg" alt="p1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="item py-2">
+                            <div class="product font-rale px-1">
+                                <a href="#"><img src="./img/bg2.jpg" alt="p1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="item py-2">
+                            <div class="product font-rale px-1">
+                                <a href="#"><img src="./img/bg7.jpg" alt="p1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="item py-2">
+                            <div class="product font-rale px-1">
+                                <a href="#"><img src="./img/bg8.jpg" alt="p1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        
+                        <div class="item py-2">
+                            <div class="product font-rale px-1">
+                                <a href="#"><img src="./img/bg6.jpg" alt="p1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="item py-2">
+                            <div class="product font-rale px-1">
+                                <a href="#"><img src="./img/bg4.jpg" alt="p1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="item py-2">
+                            <div class="product font-rale px-1">
+                                <a href="#"><img src="./img/bg5.jpg" alt="p1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="item py-2">
+                            <div class="product font-rale px-1">
+                                <a href="#"><img src="./img/bg1.jpg" alt="p1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="button-info  ">
+                    <div class="share ">
+                        <button type="button" data-toggle="modal" data-target="#icon"><span><i class="far fa-share-square"></i>&nbsp;</span>Share</button>
+                    </div>
+                    <div class="social-sharing col-2">
+
+                    </div>
+                    <div class="view-all">
+                        <button type="button" data-toggle="modal" data-target="#all-image"><span><i class="far fa-images"></i>&nbsp;</span>View all photo</button>
+                    </div>
+
+                    <div class="modal fade" id="all-image" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-lg modal-dialog m-auto">
+                            <button type="button" class="close mt-5 text-white" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            <div class="images  ">
+                                <img src="" class="preview mb-4 mt-5" id="0" alt=""><br>
+                                <img src="./img/bg2.jpg" onclick="preview(this);"  class="thumb normal" id="1" alt="">
+                                <img src="./img/bg3.jpg" onclick="preview(this);" class="thumb normal" id="2" alt="">
+                                <img src="./img/bg4.jpg" onclick="preview(this);" class="thumb normal" id="3" alt="">
+                                <img src="./img/bg5.jpg" onclick="preview(this);" class="thumb normal" id="4" alt="">
+                                <img src="./img/bg6.jpg" onclick="preview(this);" class="thumb normal" id="5" alt="">
+                                <img src="./img/bg7.jpg" onclick="preview(this);" class="thumb normal" id="6" alt="">
+                                <img src="./img/bg8.jpg" onclick="preview(this);" class="thumb normal" id="7" alt="">
+                                <img src="./img/bg1.jpg" onclick="preview(this);" class="thumb normal" id="8" alt="">
+                            </div>
+                            
+                        </div>                                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="container py-3 main">
+        <div class="row m-auto main-body"> 
+            <div class="col-md-7 all-delails">
+                <div class="title">
+                    <p class="font-weight-bold title-name ">OYO 64279 RP Palace Inn <span class="text-right text-danger border border-danger  p-2 span">NEW</span></p>
+                    <p class="text-black-50 title-address">Nearby IC Honda, Sipara, Patna</p>
+                    <p class="font-weight-bold border member d-inline p-1 text-block"><i class="fab fa-wordpress"></i>&nbsp;WIZARD MEMBER</p>
+                </div>
+                <div class="notes mt-5">
+                    <p class=" p-2 d-inline font-weight-bold text-warning bg-light rounded "><i class="far fa-heart"></i> anitised rooms for your safety & comfort</p>
+                </div>
+
+                <div class="description mt-4">
+                    <h4 class="font-weight-bold py-2">Description</h4>
+                    <p class="text-black-50">The COVID19 pandemic has made us all understand the importance of sanitization and not take it for granted. Rest assured, we have reached out to our partners to uphold the highest standards of sanitation and safety.<span id="dots">....</span><br>
+                        <span id="more">
+                            The rooms are quite cosy and have a homely feel to it. The bathrooms are clean and hygienic. <br>
+                            <span class="font-weight-bold">Location</span><br>
+                            The place is located near IC Honda, Rukanpura, Patna, Bihar.<br>
+                            <span class="font-weight-bold">Amenities</span><br>
+                            There are rooms with beds along with an attached bathroom, TV and AC. Other extended facilities at this place are a private entrance, complimentary breakfast, daily housekeeping, 24X7 check-in, CCTV cameras, power backup, free wifi and reception<br>
+                            <span class="font-weight-bold">What's Nearby</span><br>
+                            Some of the eateries around this place are Hotel Mega Royal, Kavya Fast Food, Grill To Chill and Kishan Sweets. The bus station, the railway station and the airport, all are nearby. There are some shops where one can buy different things.
+                            
+                        </span>
+                    </p>
+                    <p id="read" class="read-more text-danger font-weight-bold" onclick="read()">Read more</p>
+                </div>
+                <div class="Amenities">
+                    <h4 class="font-weight-bold py-2">Amenities</h4>
+                    <p class="pr-5 d-inline w-50"><i class="fas fa-wifi"></i>&nbsp; Free Wifi</p>
+                    <p class="pr-5 d-inline w-50"><i class="far fa-air-conditioner"></i>&nbsp; AC</p>
+                    <p class="pr-5 d-inline w-50"><i class="far fa-microwave"></i>&nbsp; Kitchen</p>
+                    <p class="pr-5 d-inline w-50"><i class="fas fa-coffee"></i>&nbsp; Complimentary Breakfast</p>
+                    <p class="pr-5 d-inline w-50"><i class="far fa-cctv"></i>&nbsp; CCTV Cameras</p>
+                    <p class="pr-5 d-inline w-50"><i class="fas fa-"></i>&nbsp; 24/7 Checkin</p>
+                    <p class="pr-5 d-inline w-50"><i class="fas fa-"></i>&nbsp; Geyser</p>
+                    <p class="pr-5 d-inline w-50"><i class="fas fa-credit-card"></i>&nbsp; Card Payment</p>
+                    <span id="hide">
+                        <p class="pr-5 d-inline w-50"><i class="fas fa-check-circle"></i>&nbsp; Reception</p>
+                        <p class="pr-5 d-inline w-50"><i class="fas fa-"></i>&nbsp; Electric Kettle</p>
+                        <p class="pr-5 d-inline w-50"><i class="fas fa-check-circle"></i>&nbsp; Daily Housekeeping</p>
+                        <p class="pr-5 d-inline w-50"><i class="fas fa-check-circle"></i>&nbsp; Fire-Extinguishe</p>
+                        <p class="pr-5 d-inline w-50"><i class="fas fa-tv"></i>&nbsp; TV</p>
+                        <p class="pr-5 d-inline w-50"><i class="fas fa-check-circle"></i>&nbsp; Attached Bathroom</p>
+                    </span>
+                    <p id="show" class="read-more text-danger font-weight-bold" onclick="show()">Read more</p>
+                </div>
+            </div>
+
+            <div id="room-price" class="col-md-5">
+                <div class=" sidebar-item mt-4  ">
+                    <div class="price-details border pt-4 shadow p-3 mb-5 bg-white rounded">
+                        <div class="rate">
+                            <p class="font-weight-bold">&#8377;&nbsp;885 <span class="text-black-50"><strike>&#8377;1245</strike></span><span class="text-warning">&nbsp;&nbsp;&nbsp;40% Off</span></p>
+                            <small class="text-black-50">inclusive of all taxes</small>
+                        </div>
+                        <div class="date d-flex mt-4 border shadow-sm pl-3 pr-3 pt-3 mb-2 bg-white rounded">
+                            <p class="border-right pr-3">Wed, 9 Sep, 10 Sep</p>
+                            <p class="pl-3">1 Room, 1 Guest</p>
+                        </div>
+                        <div class="date d-flex mt-4 border shadow-sm pl-3 pr-3 pt-3 mb-4 bg-white rounded">
+                            <p class=""><i class="fas fa-door-closed"></i> Saver Double (X)</p>
+                            <p class="pen"><i class="fas fa-pen text-danger pl-5"></i></p>
+                        </div>
+                        <div class="price-box d-flex mt-5">
+                            <div class="col-md-1 one"><i class="fab fa-wordpress text-warning"></i></div>
+                            <div class="col-md-8 o-name">
+                                <p class="font-weight-200">FINDOYO coupon applied</p>
+                                <span class="border border-success text-success p-1 rounded">MORE OFFERS</span>
+                            </div>
+                            <div class="col-md-3 d-flex price">
+                                <p>&#8377;&nbsp;338</p>
+                                <input type="checkbox" name="" id="" class="ml-3">
+                            </div>
+                        </div>
+                        <div class="price-box d-flex mt-4">
+                            <div class="col-md-1 one"><i class="fab fa-wordpress text-warning"></i></div>
+                            <div class="col-md-8 o-name">
+                                <p class="font-weight-200">OYO Money applied</p>
+                                <span class="text-black-50 rate-off">(₹131 OYO Xtra)</span>
+                            </div>
+                            <div class="col-md-3 d-flex price">
+                                <p>&#8377;&nbsp;131</p>
+                                <input type="checkbox" name="" id="" class="ml-3">
+                            </div>
+                        </div>
+                        <div class="price-box d-flex mt-4">
+                            <div class="col-md-1 one"><i class="fab fa-wordpress"></i></div>
+                            <div class="col-md-8 o-name">
+                                <p class="">Save 5% Wizard membership</p>
+                            </div>
+                            <div class="col-md-3 d-flex price">
+                                <p>&#8377;&nbsp;50</p>
+                                <input type="checkbox" name="" id="" class="ml-3">
+                            </div>
+                        </div>
+                        <div class="offer d-flex bg-light rounded p-3 mt-4">
+                            <div class="col-md-10 o-name ">
+                                <p class="font-weight-bold">Add Blue Wizard membership </p>
+                                <span class="text-black-50">Get upto 10% off on successive booking</span>
+                            </div>
+                            <div class="col-md-2 price ">
+                                <p class="">&#8377;&nbsp;99</p>
+                                <p class=" text-black-50"><strike>&#8377;&nbsp;499</strike></p>
+                            </div>
+                        </div>
+                        <div class="total mt-4 col d-flex">
+                            <div class="w-75">
+                                <p>Your savings</p>
+                            </div>
+                            <div class="w-25">
+                                <p>&#8377;&nbsp;499</p>
+                            </div>
+                        </div>
+                        <div class="total mt-2 col d-flex">
+                            <div class="w-75">
+                                <p>Total price</p>
+                                <small class="text-black-50">(incl. of all taxes)</small>
+                            </div>
+                            <div class="w-25">
+                                <p>&#8377;&nbsp;836</p>
+                            </div>
+                        </div>
+                        <div class="col-ms-12 mt-4 wf">
+                            <button class="btn btn-success btn-lg btn-block p-2">Continue to Book</button>
+                        </div>
+                        <div class="col-md-12 mt-4 policy">
+                            <p class="text-danger policy-d">Cancellation Policy &nbsp;<i class="fas fa-exclamation-circle"></i></p>
+                            <p class="text-danger">Follow safety measures advised at the hotel</p>
+                            <p class="text-black-50">By proceeding, you agree to our <span class="text-danger"> Guest Policies.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 mt-4">
+                    <h3 class="text-left">Know your new home</h3>
+                    <ul class="ml-3 mt-3 col-md-8">
+                        <li>For additional safety of everyone, our partners and their staff wears masks, uses sanitisers and maintains proper social distancing.</li>
+                        <li>During these hard times, we understand how important sanitisation and cleanliness are to you. <br>
+                            We make sure sanitisation of Floors, Rooms and Linens using good quality disinfectants
+                        </li>
+                        <li>To book you just need to pay the booking amount now. Pay the rest while you move-in and this property accepts online payments through SheltOwn.</li>
+                        <li>We do not own this property, we are providing a platform to book it meanwhile making sure thaat each SheltOwn standards are being followed.
+                           <br> We never charge any Brokerage from anyone.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
+    
+
+
+  <!-- Start footer section -->
+  <footer id="footer" class="bg-dark text-white pt-5 position-relative">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-12">
+                <h4 class="">Rental Details</h4>
+                <p class="font-rale text-white-50 font-size-14" style="width:250px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, perferendis! sit amet consectetur adipisicing elit. Culpa, perferendis!</p>
+            </div>
+
+            <div class="col-lg-4 col-12">
+                <h4 class="">Newslatter</h4>
+                <form action="#" class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="email">
+                    </div>
+                    <div class="col">
+                        <button type="submit" class="btn  mb-2">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-lg-3 col-12">
+                <h4 class="">Information</h4>
+                <div class="d-flex flex-column flex-wrap">
+                    <a href="" class="text-white-50 font-size-14 font-rale pb-1">About Us</a>
+                    <a href="" class="text-white-50 font-size-14 font-rale pb-1">Delivery Information</a>
+                    <a href="" class="text-white-50 font-size-14 font-rale pb-1">Privacy Policy</a>
+                    <a href="" class="text-white-50 font-size-14 font-rale pb-1">Term & Condition</a>
+                </div>
+            </div>
+            
+            <div class="col-lg-2 col-12">
+                <h4 class="">Account</h4>
+                <div class="d-flex flex-column flex-wrap">
+                    <a href="" class="text-white-50 font-size-14 font-rale pb-1">My Account</a>
+                    <a href="" class="text-white-50 font-size-14 font-rale pb-1">order History</a>
+                    <a href="" class="text-white-50 font-size-14 font-rale pb-1">Wish List</a>
+                    <a href="" class="text-white-50 font-size-14 font-rale pb-1">Newslatter</a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4 social">
+            <div class="col-md-6 d-inline">
+                <img src="img/google-play-icons.png" class="w-50 right" alt="">
+            </div>
+            <div class="col-md-6 d-inline social-icon mt-2">
+                <i class="fab fa-facebook ml-2"></i>
+                <i class="fab fa-instagram ml-2"></i>
+                <i class="fab fa-twitter ml-2"></i>
+                <i class="fab fa-youtube ml-2"></i>
+                <i class="fab fa-skype ml-2"></i>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright text-center text-white bg-dark py-2">
+        <p class="text-white-50">&copy; Copyrights 2020 Design By <a href="#" class="text-white-50">Alok Kumar</a> </p>
+    </div>
+</footer>
+
+
+<!-- End footer section -->
+
+<!-- Bootstrap CDN -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
+
+<!-- OwlCarousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js"></script>
+
+<!-- isotope CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+<!-- Custom javascript     -->
+<script src="main.js"></script>
+<script src="thumb_slider.js"></script>
+</body>
+</html>

@@ -1,0 +1,369 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start header section  */
+
+.navbar{
+    background-color: #2ECAB6;
+}
+.navbar .navbar-brand  img{
+    width: 120px;
+    height: 40px;
+}
+
+
+/* End header section  */
+
+/* start carousel section  */
+#carousel{
+    position: relative;
+}
+#carousel .owl-carousel .item .product a {
+    overflow: hidden;
+  }
+  
+#carousel .owl-carousel .item .product a img {
+    -webkit-transition: -webkit-transform .5 ease;
+    transition: -webkit-transform .5 ease;
+    transition: transform .5 ease;
+    transition: transform .5 ease, -webkit-transform .5 ease;
+    height: 500px;
+}
+
+#carousel .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 35%;
+    outline: none;
+  }
+  
+#carousel .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+    background: transparent;
+}
+  
+#carousel .owl-carousel .owl-nav button.owl-prev span,
+#carousel .owl-carousel .owl-nav button.owl-next span {
+    font-size: 40px;
+    padding: 0 1rem;
+    color: #e42e2e;
+    border-radius: 50%;
+    background: #fff;
+}
+#carousel .owl-carousel .owl-nav button.owl-prev span i,
+#carousel .owl-carousel .owl-nav button.owl-next span i{
+    font-size: 20px;
+}
+  
+#carousel .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: 2rem;
+}
+  
+#carousel .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+    background: transparent;
+
+}
+  
+#carousel .owl-carousel .owl-nav button.owl-next span {
+    margin-right: 2rem;
+}
+
+#carousel .button-info .share button i,
+#carousel .button-info .view-all button i{
+    font-size: 20px;
+}
+.preview{
+    height: 50%;
+    width:55%;
+    
+}
+.thumb{
+    height: 10%;
+    width: 10%;
+    margin: 5px;
+
+}
+.normal{
+    border: 1px solid #000;
+}
+.selected{
+    border: 1px dashed #fff;
+}
+.slide-view .button-info .share button,
+.slide-view .button-info .view-all button{
+    background-color: #fff;
+    padding: 6px;
+    border-radius: 5px;
+}
+.share,.view-all{
+    position:absolute;
+    z-index:1000;
+}
+.share{
+    position: absolute;
+    top: 15%;
+    right: 40px;
+
+}
+.social-sharing {
+    position: absolute;
+    top: 15%;
+    right: 40px;
+    background: #fff;
+}
+
+.view-all{
+    position: absolute;
+    bottom: 12%;
+    right: 40px;
+}
+/* End carousel section  */
+
+
+/*start main  body  */
+.main-body .title{
+    line-height: 0.8;
+}
+.main-body .title .title-name{
+    font-size: 30px;
+}
+.main-body .title .title-name span{
+    font-size: 20px;
+    float: right;
+    
+}
+.main-body .title .title-address{
+    font-size: 16px;
+}
+.main-body .title .member{
+    font-size: 12px;
+}
+.main-body .title .member i{
+    font-size: 18px;
+    justify-items: center;
+    justify-content: center;
+}
+.main-body .description #more{
+    display: none;
+}
+.main-body .Amenities #hide{
+    display: none;
+}
+.main-body .description .read-more,
+.main-body .Amenities .read-more{
+    cursor: pointer;
+}
+.main-body .Amenities{
+    line-height: 3;
+}
+
+.main-body #room-price{
+    
+}
+.main-body .sidebar-item{
+
+}
+.main-body .price-details{
+    margin-left: 50px;
+}
+
+.main-body .price-details .rate{
+    line-height: 0.8;
+    
+}
+.main-body .price-details .rate p{
+    font-size: 25px;
+
+}
+.main-body .price-details .rate span{
+    font-size: 20px;
+}
+.main-body .price-details .date .pen{
+    text-align: right;
+}
+.main-body .price-details .price-box{
+    line-height: 0.5;
+}
+.main-body .price-details .price-box .o-name p{
+    font-size: 15px;
+}
+.main-body .price-details .price-box .o-name span{
+    font-size: 12px;
+    background: #c9f8f2;
+}
+.main-body .price-details .price-box .o-name .rate-off{
+    font-size: 12px;
+    background: transparent;
+}
+.main-body .price-details .price-box  .price input{
+    color: #2ECAB6;
+    background-color: #2ECAB6;
+}
+.main-body .price-details .offer{
+    line-height: 1;
+}
+.main-body .price-details .offer .o-name p{
+    font-size: 14px;
+}
+.main-body .price-details .offer .o-name span{
+    font-size: 13px;
+}
+.main-body .price-details .total{
+    line-height: 0.5;
+}
+.main-body .sidebar-item .price-details .offer{
+    border: 2px dotted #8a8989;
+}
+.main-body .price-details .policy{
+    line-height: 1;
+}
+.main-body .price-details p{
+    cursor: pointer;
+}
+
+/*end main  body  */
+
+
+
+
+/* start footer section  */
+
+#footer h4{
+    font-family: rubik;
+    font-size: 20px;
+}
+
+#footer p{
+    font-family: rale;
+}
+
+
+#footer button{
+    background-color: #2ECAB6;
+}
+
+#footer .copyright{
+    font-size: 18px;
+}
+#footer i{
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+#footer .social{
+    line-height: 2;
+}
+
+#footer .social .social-icon{
+    text-align: right;
+}
+/* end footer section  */
+
+
+
+
+/* mobile view  */
+
+@media (max-width: 768px) { 
+    #carousel{
+        width: 100%;
+    } 
+    #carousel .owl-carousel .item .product a img {
+        height: 250px;
+    }
+      
+    #carousel .owl-carousel .owl-nav button.owl-prev span,
+    #carousel .owl-carousel .owl-nav button.owl-next span {
+        font-size: 30px;
+    }
+    .slide-view .button-info .share button,
+    .slide-view .button-info .view-all button{
+        padding: 4px;
+        font-size: 13px;
+    }
+    #carousel .owl-carousel .owl-nav button.owl-prev span{
+        margin-left: 1rem;
+    }
+    #carousel .owl-carousel .owl-nav button.owl-next span{
+        margin-right: 1rem;
+    }
+    .share{
+        top:18%;    
+    }
+
+    /* main  body  */
+    .container{
+        width: 100vw;
+    }
+    
+    .main-body .title .title-name{
+        font-size: 20px;
+    }
+    .main-body .title .title-name span{
+        font-size: 10px;
+    }
+    .main-body .title .title-address{
+        font-size: 15px;
+    }
+    .main-body .notes p{
+        font-size: 12px;
+    }
+    .main-body .col-md-5{
+        width: 100%;
+    }
+    .main-body .price-details{
+        line-height: 1.5;
+        margin-left: 0px;
+    }
+    .main-body .price-details .price-box .one{
+        width: 5%;
+    }
+    .main-body .price-details .price-box .o-name{
+        width: 60%;
+        line-height: 1;
+    }
+    .main-body .price-details .price-box .price{
+        width: 20%;
+    }
+    .main-body .price-details .price-box .price input{
+        margin-left: 0px;
+    }
+    .main-body .price-details .offer .o-name{
+        width: 85%;
+    }
+    .main-body .price-details .offer .price{
+        width: 10%;
+        line-height: 0.8;
+    }
+
+    #footer .social .social-icon{
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px  max-width: 992px) {  
+
+    #carousel .owl-carousel .item .product a img {
+        height: 300px;
+    }
+
+    
+    /* main  body  */
+    .main-body .all-delails{
+        width: 40%;
+    }
+    .main-body .room-price{
+        width: 60%;
+    }
+    .main-body .title .title-name{
+        font-size: 18px;
+    }
+    .main-body .title .title-address{
+        font-size: 15px;
+    }
+ 
+}
