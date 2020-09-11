@@ -109,9 +109,9 @@
     right: 40px;
 
 }
-.social-sharing {
+.slide-view .social-sharing {
     position: absolute;
-    top: 15%;
+    top: 20%;
     right: 40px;
     background: #fff;
 }
@@ -201,7 +201,6 @@
 }
 .main-body .price-details .price-box  .price input{
     color: #2ECAB6;
-    background-color: #2ECAB6;
 }
 .main-body .price-details .offer{
     line-height: 1;
