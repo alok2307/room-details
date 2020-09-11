@@ -64,6 +64,21 @@ function show(){
     }
 }
 
+// shareing icon 
+var icon=0;
+function show(){
+    if(!icon){
+        document.getElementById("icon-show").style.display='block';
+        // document.getElementById("show").innerHTML='Read less';
+        icon=1;
+    }
+    else{
+        document.getElementById("icon-show").style.display='none';
+        // document.getElementById("show").innerHTML='Read more';
+        icon=0;
+    }
+}
+
 
 
 
