@@ -17,7 +17,6 @@
 
     <!-- Custom CSS file -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="thumb_slider.css">
 
 </head>
 <body>
@@ -91,10 +90,14 @@
                 </section>
                 <div class="button-info  ">
                     <div class="share ">
-                        <button type="button" data-toggle="modal" data-target="#icon"><span><i class="far fa-share-square"></i>&nbsp;</span>Share</button>
+                        <button type="button" id="icon-show"><span><i class="far fa-share-square"></i>&nbsp;</span>Share</button>
                     </div>
-                    <div class="social-sharing col-2">
-
+                    <div class="social-sharing col-2" id="icon-hide">
+                        <div class="row d-flex">
+                            <p><i class="fas fa-facebook text-primary"></i>&nbsp;Facebook</p>
+                            <p><i class="fas fa-facebook text-success"></i>&nbsp;wharapp</p>
+                        </div>
+ 
                     </div>
                     <div class="view-all">
                         <button type="button" data-toggle="modal" data-target="#all-image"><span><i class="far fa-images"></i>&nbsp;</span>View all photo</button>
@@ -224,7 +227,7 @@
                             </div>
                         </div>
                         <div class="offer d-flex bg-light rounded p-3 mt-4">
-                            <div class="col-md-10 o-name ">
+                            <div class="col-md-9 o-name ">
                                 <p class="font-weight-bold">Add Blue Wizard membership </p>
                                 <span class="text-black-50">Get upto 10% off on successive booking</span>
                             </div>
